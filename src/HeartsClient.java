@@ -30,5 +30,6 @@ public class HeartsClient {
                 + " per lb, how many would you like to order");
         double b = sc.nextInt();
         System.out.println("Your total is: $" + (b / store[a].getSize() * store[a].getCost()));
+        sc.close();
     }
 }
