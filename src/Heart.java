@@ -27,6 +27,9 @@ public class Heart {
         this.cost = cost;
         this.available = available;
         this.stock = stock;
+        if (this.stock>0) {
+            this.available=true;
+        }
     }
 
     // ACCESSORS
